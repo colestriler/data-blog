@@ -23,6 +23,17 @@ brew install pandoc
 make serve
 ```
 
+5. Update gh-pages branch with changes.
+```sh
+make deploy
+```
+
+6. Push changes to master.
+```sh
+git commit
+git push
+```
+
 # Adding new notebooks.
 
 1. Create a new folder under `notebooks/`.
